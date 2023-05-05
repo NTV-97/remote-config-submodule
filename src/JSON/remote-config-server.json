@@ -36,20 +36,20 @@
     },
     "isDisplayedRefundModule": {
       "defaultValue": {
-        "value": "true"
+        "value": "false"
       },
       "valueType": "BOOLEAN"
     },
     "isDisplayedReferralProgram": {
       "defaultValue": {
-        "value": "true"
+        "value": "false"
       },
       "description": "Allow app to display Referral Program in Account Management",
       "valueType": "BOOLEAN"
     },
     "isActiveECard": {
       "defaultValue": {
-        "value": "true"
+        "value": "false"
       },
       "valueType": "BOOLEAN"
     },
