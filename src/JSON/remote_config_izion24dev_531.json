@@ -1,0 +1,80 @@
+{
+  "conditions": [],
+  "parameterGroups": {},
+  "parameters": {
+    "lastRemoteConfigVersion": {
+      "defaultValue": {
+        "value": "3"
+      },
+      "description": "Force update all remote config by changing version",
+      "valueType": "STRING"
+    },
+    "iconApp": {
+      "defaultValue": {
+        "value": {
+          "default": {
+            "isShow": false,
+            "name": "default"
+          },
+          "liberation": {
+            "isShow": true,
+            "name": "liberation"
+          }
+        }
+      },
+      "description": "Change Icon app",
+      "valueType": "JSON"
+    },
+    "isDisplayedRefundModule": {
+      "defaultValue": {
+        "value": "true"
+      },
+      "valueType": "BOOLEAN"
+    },
+    "isDisplayedReferralProgram": {
+      "defaultValue": {
+        "value": "true"
+      },
+      "description": "Allow app to display Referral Program in Account Management",
+      "valueType": "BOOLEAN"
+    },
+    "isActiveECard": {
+      "defaultValue": {
+        "value": "true"
+      },
+      "valueType": "BOOLEAN"
+    },
+    "isMaintained": {
+      "defaultValue": {
+        "value": "false"
+      },
+      "description": "Turn on/off maintenance screen",
+      "valueType": "BOOLEAN"
+    },
+    "faqUrls": {
+      "defaultValue": {
+        "value": {
+          "crackedScreen": "https://www.xcover.com/vi/help/partners/izion24"
+        }
+      },
+      "valueType": "JSON"
+    },
+    "isVoIPBackupSolution": {
+      "defaultValue": {
+        "value": "false"
+      },
+      "description": "Allow usage VoIP backup solution",
+      "valueType": "BOOLEAN"
+    }
+  },
+  "etag": "etag-304608364236-2",
+  "version": {
+    "versionNumber": "2",
+    "updateOrigin": "ADMIN_SDK_NODE",
+    "updateType": "INCREMENTAL_UPDATE",
+    "updateUser": {
+      "email": "firebase-adminsdk-fdtru@assm-react-native.iam.gserviceaccount.com"
+    },
+    "updateTime": "Thu, 04 May 2023 11:05:05 GMT"
+  }
+}
