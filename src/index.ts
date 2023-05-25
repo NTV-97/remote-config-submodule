@@ -116,16 +116,16 @@ ts-node src/index.ts publish-template
   );
 })();
 
-// if (action && action === 'get-template') {
-//   getTemplate();
-// } else if (action && action === 'publish-template') {
-//   publishTemplate();
-// } else {
-//   console.log(
-//     `
-// Invalid command. Please use one of the following:
-// ts-node src/index.ts get-template
-// ts-node src/index.ts publish-template
-// `,
-//   );
-// }
+if (action && action === 'get-template') {
+  getTemplate();
+} else if (action && action === 'publish-template') {
+  publishTemplate();
+} else {
+  console.log(
+    `
+Invalid command. Please use one of the following:
+ts-node src/index.ts get-template
+ts-node src/index.ts publish-template
+`,
+  );
+}
